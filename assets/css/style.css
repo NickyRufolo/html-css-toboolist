@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+
+    .container{
+        background-size: 20%;
+        width: 100%; height: 80px;
+        border-style: none;
+        background-color: rgb(235, 187, 187);
+    }
+    
+   #logo {
+    height: 65px;
+    margin-left: 2%;
+    margin-top: 0.33%;
+    vertical-align: middle;
+
+   }
+
+   .title {
+        margin-top: -3.5%;
+        margin-left: 6.3%;
+        font-size: 250%;
+        
+    }
