@@ -5,52 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html-css-toboolist</title>
-
-
      <!-- link file css --> 
      <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 
 <body>
+
     <header>
-        <div class="container">
-         <img src="assets/img/Logo.png" alt="logo" id="logo">
-         <h1 class="title">Toboolist</h1>     
-        </div>
+         <img src="./assets/img/Logo.png" alt="logo" id="logo">
+         <span id="logo-testo ">Toboolist</span>   
+         <!-- <h1 id="logo-testo2">Tobolist</h1> -->
     </header>
 
-    <!-- big container -->
-<div class="big-container">
-
-        <button id="Task">Add Task</button>
-
-        <button id="Add">Add Section</button>
-        
-        <hr id="linea">
-
 <main>
-<div class="divisor">
-    <h2>New Task</h2>
-   <p>  <span id="cerchio">a</span>Quarterly Newsletter <button id="Estension">Estension</button></p> 
-</div>
 
- <div class="divisor">
-    <h2>Today</h2>
-    <p>Recruiting blog post <button id="Estension">Estension</button></p>
-    <p>Mobile app luanch <button id="Estension">Estension</button></p>
-    <p>Interview John H. <button id="Estension">Estension</button></p>
-    <p>Summit update to mobile storefronts <button id="Estension">Estension</button></p>
-</div>
-<div class="divisor">
-    <h2>Upcoming</h2>
-    <p>Schedule meeting with Alex <button id="Estension">Estension</button></p>
-    <p>Homepage refresh <button id="Estension">Estension</button></p>
-    <p>Onboard new Sales team members <button id="Estension">Estension</button></p>
-    <p>Review editorial calendar </p>
+ <div class="p-xl">
+    <button class="btn btn-active">Add Task</button>
+    <button class="btn btn-disabled">Add Section</button>
  </div>
 
+ <hr>
+
+  <div class="p-xl">
+
+    <ul>
+       <li>
+         <h2 class="list-title">New Task</h2>
+       <ul class="under-list">
+        <li class="check editorial">Quarterely newsletter</li>
+         <li class="check q1-goals">ciao ciao</li>
+         <li class="check recruiting">ciao ciao</li> 
+       </ul>
+    </li>
+    <li>
+        <h2 class="list-title">New Task</h2>
+      <ul class="under-list">
+        <li class="check editorial">Quarterely newsletter</li>
+        <li class="cross beautiful">ciao ciao</li>
+        <li class="cross">ciao ciao</li> 
+      </ul>
+   </li>
+   <li>
+    <h2 class="list-title">New Task</h2>
+  <ul class="under-list">
+    <li class="cross website">ciao ciao</li>
+    <li class="cross website">ciao ciao</li>
+  </ul>
+</li>
+  </div>
+
 </main>
-</div>
+  
+   
 </body>
-</html>
+ </html>
+    
+  
